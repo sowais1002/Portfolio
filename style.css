@@ -1,0 +1,120 @@
+body{
+    background-color: #fae5df;
+}
+.navbar{
+    background-color: #fae5df !important;
+}
+.navbar-brand{
+    color: #141850;
+}
+.custom-mt{
+    margin-top: 8rem !important;
+}
+.custom-mb{
+    margin-bottom: 14rem;
+}
+.custom-padding{
+    padding-top: 120px;
+}
+
+.primary-text{
+    color: #303179;
+}
+.secondary-text{
+    color: #ed7966;
+}
+.btn-box{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-box a{
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 60px;
+    background: #ed7966;
+    border: 2px solid #ed7966;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #141850;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.btn-box a:hover{
+    color: #ed7966;
+}
+
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #ed7966;
+}
+
+.btn-box a:nth-child(2):hover{
+    color: #141850;
+}
+
+.btn-box a:nth-child(2)::before{
+    background: #ed7966;
+}
+
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #fae5df;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box a:hover::before{
+    width: 100%;
+}
+
+#about .card{
+    width: 70%;
+    background-color: #ffbfb4;
+    height: fit-content;
+}
+
+.skill-icons{
+    width: 60px;
+    position: relative;
+}
+
+#projects .card{
+    background-color: #ffbfb4;   
+}
+
+form input, form textarea{
+    border: 0;
+    border-radius: 6px;
+    background-color: rgb(55, 53, 53);
+    padding: 10px;
+    color: #ffff;
+}
+form button{
+    border: 0;
+    border-radius: 6px;
+    background-color: #ed7966;
+    padding: 6px;
+    font-size: 18px;
+}
+#msg{
+    color: #141850;
+}
+footer{
+    background-color: #303179;
+    color: white;
+    height: 60px;
+    padding: 15px;
+}
